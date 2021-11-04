@@ -7,16 +7,19 @@ import com.holmes.holmesbrewery.services.v2.BeerServiceV2;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 import javax.validation.ConstraintViolationException;
 import javax.validation.Valid;
+import javax.validation.constraints.NotNull;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.UUID;
 
 @RestController
 @RequestMapping("/api/v2/beer")
+@Validated
 public class BeerControllerV2 {
 
     private final BeerServiceV2 beerServiceV2;
@@ -26,12 +29,12 @@ public class BeerControllerV2 {
     }
 
     @GetMapping("/{beerId}")
-    public ResponseEntity<BeerDtoV2> getBeer(@PathVariable("beerId") UUID beerId){
+    public ResponseEntity<BeerDtoV2> getBeer(@NotNull @PathVariable("beerId") UUID beerId){
         return new ResponseEntity<BeerDtoV2>(beerServiceV2.getBeerById(beerId), HttpStatus.OK);
     }
 
     @PostMapping
-    public ResponseEntity saveNewBeer(@Valid @RequestBody BeerDtoV2 beerDto){
+    public ResponseEntity saveNewBeer(@Valid @NotNull @RequestBody BeerDtoV2 beerDto){
         BeerDtoV2 savedDto = beerServiceV2.saveNewBeer(beerDto);
         HttpHeaders headers = new HttpHeaders();
         // TODO add hostname to url
