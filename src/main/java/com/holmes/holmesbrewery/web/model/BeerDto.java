@@ -2,6 +2,9 @@ package com.holmes.holmesbrewery.web.model;
 
 import lombok.*;
 
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.Null;
+import javax.validation.constraints.Positive;
 import java.util.UUID;
 
 @Data
@@ -10,8 +13,15 @@ import java.util.UUID;
 @Builder
 public class BeerDto {
 
+    @Null
     private UUID id;
+
+    @NotBlank
     private String beerName;
+
+    @NotBlank
     private String beerStyle;
-    private Long uvc;
+
+    @Positive
+    private Long upc;
 }
