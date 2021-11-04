@@ -1,0 +1,14 @@
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/BeerService.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/model/v2/BeerDtoV2.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/impl/CustomerServiceImpl.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/model/BeerDto.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/controller/BeerController.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/model/v2/BeerStyleEnum.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/impl/BeerServiceImpl.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/v2/impl/BeerServiceImplV2.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/v2/BeerServiceV2.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/HolmesBreweryApplication.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/model/Customer.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/CustomerService.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/controller/CustomerController.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/controller/v2/BeerControllerV2.java

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.holmes.holmesbrewery.HolmesBreweryApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.237 s - in com.holmes.holmesbrewery.HolmesBreweryApplicationTests

@@ -1,0 +1,17 @@
+com/holmes/holmesbrewery/web/controller/CustomerController.class
+com/holmes/holmesbrewery/web/model/Customer.class
+com/holmes/holmesbrewery/services/impl/CustomerServiceImpl.class
+com/holmes/holmesbrewery/services/v2/impl/BeerServiceImplV2.class
+com/holmes/holmesbrewery/web/controller/BeerController.class
+com/holmes/holmesbrewery/services/BeerService.class
+com/holmes/holmesbrewery/HolmesBreweryApplication.class
+com/holmes/holmesbrewery/web/model/Customer$CustomerBuilder.class
+com/holmes/holmesbrewery/web/model/BeerDto$BeerDtoBuilder.class
+com/holmes/holmesbrewery/services/CustomerService.class
+com/holmes/holmesbrewery/web/model/v2/BeerDtoV2.class
+com/holmes/holmesbrewery/web/model/v2/BeerDtoV2$BeerDtoV2Builder.class
+com/holmes/holmesbrewery/web/controller/v2/BeerControllerV2.class
+com/holmes/holmesbrewery/services/v2/BeerServiceV2.class
+com/holmes/holmesbrewery/web/model/v2/BeerStyleEnum.class
+com/holmes/holmesbrewery/web/model/BeerDto.class
+com/holmes/holmesbrewery/services/impl/BeerServiceImpl.class
