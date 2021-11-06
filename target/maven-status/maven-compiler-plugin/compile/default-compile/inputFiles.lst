@@ -1,6 +1,7 @@
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/BeerService.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/model/v2/BeerDtoV2.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/model/BeerDto.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/domain/Beer.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/controller/MvcExceptionHandler.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/model/CustomerDto.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/controller/BeerController.java
@@ -12,4 +13,5 @@
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/CustomerService.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/controller/CustomerController.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/controller/v2/BeerControllerV2.java
+/Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/web/mappers/BeerMapper.java
 /Users/matt-macbook/Documents/workspace/java/microservice/holmes-brewery/src/main/java/com/holmes/holmesbrewery/services/CustomerServiceImpl.java
