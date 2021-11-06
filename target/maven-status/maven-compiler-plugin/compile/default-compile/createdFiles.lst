@@ -13,6 +13,7 @@ com/holmes/holmesbrewery/services/v2/BeerServiceV2Impl.class
 com/holmes/holmesbrewery/web/model/v2/BeerStyleEnum.class
 com/holmes/holmesbrewery/web/model/BeerDto.class
 com/holmes/holmesbrewery/services/CustomerServiceImpl.class
+com/holmes/holmesbrewery/web/mappers/DateMapper.class
 com/holmes/holmesbrewery/web/mappers/CustomerMapperImpl.class
 com/holmes/holmesbrewery/domain/Beer$BeerBuilder.class
 com/holmes/holmesbrewery/web/controller/BeerController.class

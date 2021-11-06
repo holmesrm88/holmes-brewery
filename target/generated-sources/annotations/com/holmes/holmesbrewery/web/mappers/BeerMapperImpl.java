@@ -6,15 +6,19 @@ import com.holmes.holmesbrewery.web.model.BeerDto;
 import com.holmes.holmesbrewery.web.model.BeerDto.BeerDtoBuilder;
 import com.holmes.holmesbrewery.web.model.v2.BeerStyleEnum;
 import javax.annotation.processing.Generated;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2021-11-06T12:32:01-0400",
+    date = "2021-11-06T16:52:28-0400",
     comments = "version: 1.4.2.Final, compiler: javac, environment: Java 11.0.12 (Oracle Corporation)"
 )
 @Component
 public class BeerMapperImpl implements BeerMapper {
+
+    @Autowired
+    private DateMapper dateMapper;
 
     @Override
     public BeerDto beerToBeerDto(Beer beer) {
@@ -30,6 +34,8 @@ public class BeerMapperImpl implements BeerMapper {
             beerDto.beerStyle( beer.getBeerStyle().name() );
         }
         beerDto.upc( beer.getUpc() );
+        beerDto.createdDate( dateMapper.asOffsetDateTime( beer.getCreatedDate() ) );
+        beerDto.lastUpdatedDate( dateMapper.asOffsetDateTime( beer.getLastUpdatedDate() ) );
 
         return beerDto.build();
     }
@@ -48,6 +54,8 @@ public class BeerMapperImpl implements BeerMapper {
             beer.beerStyle( Enum.valueOf( BeerStyleEnum.class, dto.getBeerStyle() ) );
         }
         beer.upc( dto.getUpc() );
+        beer.createdDate( dateMapper.asTimestamp( dto.getCreatedDate() ) );
+        beer.lastUpdatedDate( dateMapper.asTimestamp( dto.getLastUpdatedDate() ) );
 
         return beer.build();
     }
